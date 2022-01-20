@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-image: url("./img/disney-gfe72eef00_1920.jpg");
+   
+
+}
+
+.formulario{
+    width: 500px;
+    max-width: 100%;
+    margin:auto;
+    margin-top: 5%;
+    margin-left: 50%;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(197, 193, 193, 0.3);
+    position: relative;
+}
+
+.formularioTitulo{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: white;
+
+}
+
+.formularioInput, .formularioLabel, .formularioSubmit{
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+    color: white;
+    
+
+}
+.formularioInput:focus{
+    outline: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.formularioInput:focus + .formularioLabel{
+   margin-top: -130px;
+}
+
+.formularioInput{
+    padding: 20px;
+    border: 1px solid black ;
+    margin-bottom: 40px;
+    background-color: rgba(66, 65, 64, 0.486);
+}
+
+.formularioLabel{
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index:-20 ;
+    color:white;
+    transition: all 0.3s ;
+}
+
+.formularioSubmit{
+    background-color:rgb(255, 255, 255);
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.estatica{
+    margin-top: -135px;
+}
